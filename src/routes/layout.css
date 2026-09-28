@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+:root {
+  --paper: #f3f1e9; --paper-light: #fbfaf6; --ink: #171715; --ink-soft: #55534d;
+  --muted: #858178; --line: rgba(23, 23, 21, .15); --accent: #e84c36;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif; --font-serif: "Instrument Serif", Georgia, serif;
+  color: var(--ink); background: var(--paper); font-family: var(--font-sans);
+  font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 6rem; background: var(--paper); }
+body { margin: 0; min-width: 320px; overflow-x: hidden; color: var(--ink); background: var(--paper); font-family: var(--font-sans); }
+a { color: inherit; } button, input, textarea { font: inherit; } button { color: inherit; }
+::selection { background: var(--accent); color: #fff; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3, .serif-text { font-family: var(--font-serif); font-weight: 400; letter-spacing: -.035em; }
+section[id] { scroll-margin-top: 90px; }
+.app-wrapper { position: relative; width: 100%; min-height: 100vh; }
+.container { width: min(100% - 3rem, 1320px); margin-inline: auto; }
+@media (max-width: 640px) { .container { width: min(100% - 2rem, 1320px); } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
