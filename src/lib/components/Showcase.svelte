@@ -6,7 +6,7 @@
   const commitments = [
     { time: "AVANT LE CONSEIL", title: "On vous demande ce qui compte.", description: "Avant chaque conseil de classe, on consulte TG4 pour faire remonter les sujets qui concernent le groupe.", mark: "01" },
     { time: "PENDANT", title: "Vos mots, sans les déformer.", description: "On transmet vos demandes et difficultés aux professeurs et à la vie scolaire, clairement et fidèlement.", mark: "02" },
-    { time: "APRÈS", title: "On revient avec les réponses.", description: "Après les échanges, on fait un retour utile à la classe, en respectant la confidentialité des situations personnelles.", mark: "03" },
+    { time: "APRÈS", title: "On revient avec des nouvelles.", description: "Après les échanges, on fait un retour utile à la classe, en respectant la confidentialité des situations personnelles.", mark: "03" },
     { time: "TOUTE L’ANNÉE", title: "Personne ne reste hors boucle.", description: "On fait circuler les informations utiles à tout le monde. Oui, jusqu’au fond de la salle.", mark: "04" }
   ];
   let grid = $state();
