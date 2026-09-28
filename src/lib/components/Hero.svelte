@@ -57,7 +57,7 @@
       <div class="hero-art-halo"></div>
       <div class="hero-art-disc" bind:this={disc}>
         <div class="disc-top"><span>TG4</span><span>28 · 09 · 26</span></div>
-        <div class="disc-center"><span>ÉLUS</span><span class="ampersand">&amp;</span><span>À L’ÉCOUTE</span></div>
+        <div class="disc-center"><span>CANDIDATS</span><span class="ampersand">&amp;</span><span>À L’ÉCOUTE</span></div>
         <div class="disc-bottom"><span>KAÏS + MICHEL</span><span>← DEUX VOIX →</span></div>
       </div>
       <div class="hero-art-tag">Pas un sondage.<br />Une vraie élection.</div>
